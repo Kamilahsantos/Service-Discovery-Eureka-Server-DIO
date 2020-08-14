@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 'eureka server'
+server:
+  port: 9090
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
